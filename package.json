@@ -1,0 +1,26 @@
+{
+  "name": "chef",
+  "version": "0.0.0",
+  "description": "Access the Opsode Chef Server API from node",
+  "main": "chef.js",
+  "dependencies": {
+    "request": "~2.14.0",
+    "ursa": "~0.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mal/node-chef.git"
+  },
+  "keywords": [
+    "api",
+    "chef",
+    "chef-api",
+    "chef-server"
+  ],
+  "author": "Mal Graty <mal.graty@googlemail.com>",
+  "license": "MIT"
+}
