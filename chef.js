@@ -67,4 +67,8 @@ methods.forEach(function (method) {
     }
 });
 
-module.exports = Chef;
+module.exports = {
+    createClient: function (user, key, server) {
+        return new Chef(user, key, server);
+    }
+};

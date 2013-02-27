@@ -1,6 +1,6 @@
 {
-  "name": "chef",
-  "version": "0.0.0",
+  "name": "chef-lib",
+  "version": "0.0.1",
   "description": "Access the Opsode Chef Server API from node",
   "main": "chef.js",
   "dependencies": {
@@ -19,7 +19,8 @@
     "api",
     "chef",
     "chef-api",
-    "chef-server"
+    "chef-server",
+    "chef-lib"
   ],
   "author": "Mal Graty <mal.graty@googlemail.com>",
   "license": "MIT"
