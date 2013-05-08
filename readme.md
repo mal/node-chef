@@ -1,30 +1,4 @@
 node-chef
 =========
 
-Handles the basic authentication so you can get on with Cheffing.
-
-### Install
-
-~~~sh
-$ npm install chef-lib
-~~~
-
-### Examples
-
-~~~javascript
-var fs = require('fs'),
-    chef = require('chef-lib');
-
-fs.readFile('/path/tp/pem.file', function (err, key) {
-    var client = chef.createClient('mal', key, 'http://chef.server.com:4000');
-
-    client.get('/nodes', function(err, res) {
-        console.log(err ? err : res);
-    });
-});
-~~~
-
-### Methods
-
-The `Chef` object supports `get`, `post`, `put`, `delete` and `update` methods and
-accepts relative and absolute URLs (so you can use URLs returned in responses).
+Ported over to [`sgentle/chef-node`](https://github.com/sgentle/chef-node).
